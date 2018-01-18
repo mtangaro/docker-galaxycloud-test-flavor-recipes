@@ -6,7 +6,7 @@ ENV container docker
 
 RUN echo "localhost" > /etc/ansible/hosts
 
-ADD install_tools_wrapper.sh /usr/local/bin/install-tools
+ADD install_tools.sh /usr/local/bin/install-tools
 
 RUN chmod +x /usr/local/bin/install-tools 
 
